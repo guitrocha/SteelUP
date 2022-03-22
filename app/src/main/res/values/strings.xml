@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">SteelUP</string>
+    <!-- Titles. -->
+    <string name="available_space">Espaço disponível</string>
+    <string name="pallet">Porta-Pallet</string>
+    <string name="scale">Dimensionar</string>
+    <string name="scaling">Dimensionamento</string>
+    <string name="distribution">Distribuição</string>
+    <string name="frames">Contraventamentos</string>
+    <string name="beams">Vigas</string>
+    <string name="columns">Colunas</string>
+    <string name="total_weight">Peso total</string>
+    <!-- Attributes. -->
+    <string name="width">Largura</string>
+    <string name="height">Altura</string>
+    <string name="lenght">Comprimento</string>
+    <string name="width_passage">Largura dos corredores</string>
+    <string name="system_type">Tipo de sistema</string>
+    <string name="width_frames">Largura do montante</string>
+    <string name="frame_bracing">Tipo de contraventamento</string>
+    <string name="column">Coluna</string>
+    <string name="beam">Longarina</string>
+    <string name="passage">Corredores</string>
+    <string name="shelf">Filas de prateleiras</string>
+    <string name="space_between_shelfs">Altura entre prateleiras</string>
+    <string name="amount">Quantidade</string>
+    <string name="amount_horizontal">Quantidade horizontal</string>
+    <string name="amount_diagonal">Quantidade diagonal</string>
+    <string name="unit_weight">Peso unitário</string>
+    <string name="unit_weight_horizontal">Peso unitário horizontal</string>
+    <string name="unit_weight_diagonal">Peso unitário diagonal</string>
+    <!-- Descriptions. -->
+    <string name="square_meters">metros quadrados</string>
+    <string name="meters">metros</string>
+    <string name="spent_steel">de aço gasto</string>
+    <!-- Units. -->
+    <string name="kg">kg</string>
+    <string name="ton">Ton</string>
+    <!-- Image Content Descriptions. -->
+    <string name="ic_menu">Botão de menu estilo hambúrguer</string>
+    <string name="ic_user">Botão de perfil do usuário</string>
+    <string name="ic_logo">Imagem da logo da aplicação</string>
+    <string name="ic_help">Botão de ajuda</string>
+    <string name="ilu_shelf">Ilustração de prateleiras</string>
+    <string name="ilu_weight">Ilustração de peso</string>
+    <!-- Messages -->
+    <string name="warning_preencher">Preencha todos os dados solicitados!</string>
+    <string name="warning_extras">Algo deu errado ao processar seus dados...</string>
+
+    <!-- Arrays. -->
+    <string-array name="array_system_type">
+        <item>Simples</item>
+        <item>Duplo</item>
+    </string-array>
+    <string-array name="array_frame_bracing">
+        <item>Tensão</item>
+        <item>D</item>
+        <item>Z</item>
+        <item>K</item>
+    </string-array>
+</resources>
+
+
+    <!-- <item name=""></item> -->

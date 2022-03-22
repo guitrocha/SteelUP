@@ -1,0 +1,146 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary100</item>
+        <item name="colorPrimaryDark">@color/primary_dark1</item>
+        <item name="colorAccent">@color/secondary100</item>
+        <item name="colorOnSurface">@color/black050</item>
+    </style>
+    <!-- ======================= -->
+
+    <!-- Typography. -->
+        <!-- Titles. -->
+        <style name="TYPOGRAPHY_H1">
+            <item name="android:fontFamily">@font/regular</item>
+            <item name="android:textSize">52sp</item>
+            <item name="lineHeight">83.2sp</item>
+        </style>
+
+        <style name="TYPOGRAPHY_H2">
+            <item name="android:fontFamily">@font/medium</item>
+            <item name="android:textSize">40sp</item>
+            <item name="lineHeight">64sp</item>
+        </style>
+
+        <style name="TYPOGRAPHY_H3">
+            <item name="android:fontFamily">@font/bold</item>
+            <item name="android:textSize">32sp</item>
+            <item name="lineHeight">51.2sp</item>
+        </style>
+
+        <style name="TYPOGRAPHY_H4">
+            <item name="android:fontFamily">@font/bold</item>
+            <item name="android:textSize">26sp</item>
+            <item name="lineHeight">41.6sp</item>
+        </style>
+
+        <style name="TYPOGRAPHY_H5">
+            <item name="android:fontFamily">@font/bold</item>
+            <item name="android:textSize">20sp</item>
+            <item name="lineHeight">32sp</item>
+        </style>
+
+        <!-- Texts. -->
+        <style name="TYPOGRAPHY_text_big">
+            <item name="android:fontFamily">@font/regular</item>
+            <item name="android:textSize">20sp</item>
+            <item name="lineHeight">32sp</item>
+        </style>
+
+        <style name="TYPOGRAPHY_text_flowing">
+            <item name="android:fontFamily">@font/regular</item>
+            <item name="android:textSize">16sp</item>
+            <item name="lineHeight">25.6sp</item>
+        </style>
+
+        <style name="TYPOGRAPHY_text_flowing_bold">
+            <item name="android:fontFamily">@font/bold</item>
+            <item name="android:textSize">16sp</item>
+            <item name="lineHeight">25.6sp</item>
+        </style>
+
+        <style name="TYPOGRAPHY_text_small">
+            <item name="android:fontFamily">@font/regular</item>
+            <item name="android:textSize">14sp</item>
+            <item name="lineHeight">22.4sp</item>
+        </style>
+
+        <style name="TYPOGRAPHY_text_small_bold">
+            <item name="android:fontFamily">@font/bold</item>
+            <item name="android:textSize">14sp</item>
+            <item name="lineHeight">22.4sp</item>
+        </style>
+
+        <style name="TYPOGRAPHY_subtitle">
+            <item name="android:fontFamily">@font/regular</item>
+            <item name="android:textSize">12sp</item>
+            <item name="lineHeight">19.2sp</item>
+        </style>
+
+        <style name="TYPOGRAPHY_subtitle_bold">
+            <item name="android:fontFamily">@font/bold</item>
+            <item name="android:textSize">12sp</item>
+            <item name="lineHeight">19.2sp</item>
+        </style>
+
+        <style name="TYPOGRAPHY_subtitle_small">
+            <item name="android:fontFamily">@font/regular</item>
+            <item name="android:textSize">10sp</item>
+            <item name="lineHeight">16sp</item>
+        </style>
+    <!-- ======================= -->
+
+    <!-- Shadows. -->
+    <style name="SHADOW_2card">
+        <item name="android:outlineProvider">bounds</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+    <style name="SHADOW_4button">
+        <item name="android:outlineProvider">bounds</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+    <style name="SHADOW_8menu">
+        <item name="android:outlineProvider">bounds</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+    <style name="SHADOW_16card_focus">
+        <item name="android:outlineProvider">bounds</item>
+        <item name="android:elevation">16dp</item>
+    </style>
+    <style name="SHADOW_24picker">
+        <item name="android:outlineProvider">bounds</item>
+        <item name="android:elevation">24dp</item>
+    </style>
+    <style name="SHADOW_32modal">
+        <item name="android:outlineProvider">bounds</item>
+        <item name="android:elevation">32dp</item>
+    </style>
+    <!-- ======================= -->
+    <!-- ================================================================================= -->
+    <!-- Components. -->
+    <style name="text_field" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="android:textColorHint">@color/black050</item>
+        <item name="placeholderTextColor">@color/black050</item>
+        <item name="suffixTextAppearance">@style/TYPOGRAPHY_text_flowing</item>
+        <item name="suffixTextColor">@color/black100</item>
+    </style>
+
+    <style name="dropdown_field" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="android:textColorHint">@color/black050</item>
+        <item name="placeholderTextColor">@color/black050</item>
+        <item name="suffixTextAppearance">@style/TYPOGRAPHY_text_flowing</item>
+        <item name="suffixTextColor">@color/black100</item>
+    </style>
+
+</resources>
